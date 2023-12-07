@@ -1,1 +1,18 @@
-key: val
+columns:
+  product_weight_g      :  float64
+  product_length_cm     :  float64
+  product_height_cm     :  float64
+  product_width_cm      :  float64
+  payment_type          :  object 
+  payment_installments  : int64  
+  review_score          :  int64  
+
+
+
+
+
+
+
+
+TARGET_COLUMN:
+  name:  review_score   

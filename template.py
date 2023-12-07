@@ -9,7 +9,7 @@ project_name = "mlProject"
 
 
 list_of_files = [
-    ".github/workflows/.gitkeep",
+    ".github/workflows/.gitkeep",  #this folder is a required to for deployement and gitkeep is persent because commit doesnt not take empty folders
     f"src/{project_name}/__init__.py",
     f"src/{project_name}/components/__init__.py",
     f"src/{project_name}/utils/__init__.py",

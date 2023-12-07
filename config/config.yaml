@@ -1,0 +1,15 @@
+#these are data a ingestion and etc configurtion its like deifnting on eartifact
+#like whenever you a ezecute an training pipeline or etc so it create one folder called artifacts and inside that it stores 
+#artifacts realetd model train , odel ingestion evelaution etc
+
+
+
+artifacts_root: artifacts  #folder name
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/nischay2356/datasets/raw/main/olist_customers_dataset.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
+
